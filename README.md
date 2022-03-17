@@ -15,7 +15,7 @@
       <h2>Compound Interest Demo:</h2><br>
       <script>
         for (var i = 0.05; i <= 0.07; i += 0.01){
-        document.write("<table style='border: 1px solid black; width: 100%; background-color: black; color: white; table-layout: fixed; border-collapse: collapse; padding: 20px;'> <tr> <th style='border: 1px solid black; padding: 8px;'> Year </th> <th style='border: 1px solid black; padding: 8px;'> Amount On Deposit </th> <th style='border: 1px solid black; padding: 8px;'> Interest Rate </th> </tr> </table>");
+        document.write("<table style='border: 1px solid black; width: 100%; background-color: black; color: black; table-layout: fixed; border-collapse: collapse; padding: 20px;'> <tr> <th style='border: 1px solid red; padding: 8px;'> Year </th> <th style='border: 1px solid black; padding: 8px;'> Amount On Deposit </th> <th style='border: 1px solid black; padding: 8px;'> Interest Rate </th> </tr> </table>");
           for (var j = 1; j <= 10; j++){
             var a, p, r, n, inner;
             p = 1000;
