@@ -1,6 +1,6 @@
 <head>
   <meta charset="utf-8">
-  <title>CNIT 133 - HW4, Part 2</title>
+  <title>CNIT 133 - Homework 4 Part 2</title>
   <meta name="description" content="Web Page for HW Assignment 4 of CNIT 133 - Javascript">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
   <!-- Bootstrap CDN Link -->
@@ -10,9 +10,9 @@
 </head>
 <body>
  <section>
-    <p class="explanation">Below, a table printed via JS displays calculated, compound interest on a principal of $1,000 for interest rates of 5%, 6%, and 7%, for years 1 through 10.</p>
+    <p class="explanation">Below, this is a table that displays compound interest on a principal of $1,000 for interest rates of 5%, 6%, and 7%, for years 1 through 10.</p>
     <div class="hw4-part1-divbox">
-      <h2>Compound Interest Demo:</h2><br>
+      <h2>Compound Interest!</h2><br>
       <script>
 
       for (var i = 0.05; i <= 0.07; i += 0.01){
@@ -62,5 +62,5 @@
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
-  
-  
+  <br>
+      <i>Jordan Hanks<i>
