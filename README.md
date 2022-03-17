@@ -2,7 +2,7 @@
   <meta charset="utf-8">
   <title>CNIT 133 - HW4, Part 2</title>
   <meta name="description" content="Web Page for HW Assignment 4 of CNIT 133 - Javascript">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
   <!-- Bootstrap CDN Link -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <!-- Custom CSS Link -->
@@ -15,7 +15,7 @@
       <h2>Compound Interest Demo:</h2><br>
       <script>
         for (var i = 0.05; i <= 0.07; i += 0.01){
-        document.write("<table style='border: 1px solid black; width: 100%; background-color: maroon; color: white; table-layout: fixed; border-collapse: collapse; padding: 20px;'> <tr> <th style='border: 1px solid black; padding: 8px;'> Year </th> <th style='border: 1px solid black; padding: 8px;'> Amount On Deposit </th> <th style='border: 1px solid black; padding: 8px;'> Interest Rate </th> </tr> </table>");
+        document.write("<table style='border: 1px solid black; width: 100%; background-color: black; color: white; table-layout: fixed; border-collapse: collapse; padding: 20px;'> <tr> <th style='border: 1px solid black; padding: 8px;'> Year </th> <th style='border: 1px solid black; padding: 8px;'> Amount On Deposit </th> <th style='border: 1px solid black; padding: 8px;'> Interest Rate </th> </tr> </table>");
           for (var j = 1; j <= 10; j++){
             var a, p, r, n, inner;
             p = 1000;
