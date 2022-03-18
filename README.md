@@ -1,6 +1,6 @@
 <head>
   <meta charset="utf-8">
-  <title>CNIT 133 - Homework 4 Part 2</title>
+  <title>CNIT 133 Homework 4 Part 2</title>
   <meta name="description" content="Web Page for HW Assignment 4 of CNIT 133 - Javascript">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
   <br>
